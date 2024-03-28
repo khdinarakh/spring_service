@@ -22,7 +22,7 @@ public class EmployeeController {
 
     @GetMapping("/check")
     public String check() {
-        return "employee-core-api is working at the port: " + env.getProperty("local.server.port");
+        return "employee-core-api is working at the port";
     }
 
     @PostMapping
